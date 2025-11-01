@@ -1,4 +1,4 @@
-# Start the Server :
+# Compile all files :
 
 javac --release 8 SocServer.java SocketClient.java
 
