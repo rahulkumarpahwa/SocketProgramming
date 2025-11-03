@@ -4,7 +4,7 @@ javac --release 8 SocServer.java SocketClient.java
 
 # Start the Server :
 
-java SocServer
+Error: Could not find or load main class SocServerError: Could not find or load main class SocServer
 
 # Start the Client :
 

@@ -1,3 +1,5 @@
+// this project creates the Socket between client and Server in which substring is returned upto the length 3.
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;

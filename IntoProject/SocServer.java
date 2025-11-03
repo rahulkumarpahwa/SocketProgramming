@@ -1,3 +1,4 @@
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
@@ -29,7 +30,7 @@ public class SocServer {
 
         OutputStreamWriter os = new OutputStreamWriter(s.getOutputStream());
         PrintWriter out = new PrintWriter(os);
-        out.println("C: " +  str2);
+        out.println(str2);
         out.flush(); // must flush to forcefully send the data.
         ss.close(); // must close
     }
